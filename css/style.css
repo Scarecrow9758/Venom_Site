@@ -1,0 +1,54 @@
+body{
+    background-color: #14131A;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+    max-width: 1140px;
+    margin: auto;
+    margin-left: 110px;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    margin-bottom: 80px;
+}
+#headerlogo{
+    display: inline-block;
+    margin-right: 50px;
+}
+.headernav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.nav-li-item{
+    margin-right:30px;
+}
+.nav-li-item a{
+    color:#fff;
+    opacity: 50%;
+    text-decoration: none;
+}
+.datepremier{
+    display: block;
+    font-size: 24px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 30px;
+    
+}
+
+.film-description{
+    margin-top: 40px;
+    font-size: 16px;
+    max-width: 423px;
+    line-height: 140%;
+    /* or 22px */
+    color: rgba(255, 255, 255, 0.8);
+
+}
