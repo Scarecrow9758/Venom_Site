@@ -1,5 +1,4 @@
 body{
-    background-color: #14131A;
     color:#fff;
     font-family: 'Roboto', sans-serif;
 }
@@ -50,5 +49,51 @@ header{
     line-height: 140%;
     /* or 22px */
     color: rgba(255, 255, 255, 0.8);
+
+}
+
+.button{
+    padding: 15px 30px;
+    border:none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.button:hover{
+    cursor: pointer;
+}
+
+.watch-trailer span, .watch-trailer img{
+    display: inline-block;
+    vertical-align: middle;
+}
+.trailer-ticket{
+    padding-left: 50px;
+}
+.button-text{
+    padding: 10px;
+    color:white;
+    font-size: 14px;
+    line-height: 16px;
+    
+
+}
+.watch-trailer{
+    color:#8D0019;
+    background-color:#fff;
+}
+.watch-trailer img{
+    padding-right: 10px;
+}
+.button-group{
+    margin-top: 70px;
+}
+
+.venom{
+    position: absolute;
+    top:0;
+    right: 0;
+}
+.blood{
+    background: url('../Images/Blood.png') no-repeat top right, #14131A url("../Images/Background-1st.jpg") no-repeat center center /100%;
 
 }

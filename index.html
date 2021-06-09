@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="blood">
     <div class="wrapper">
         <header class="header">
             <a href="" id="headerlogo">
@@ -42,13 +42,23 @@
                 <p class="film-description">
                     В настырном журналисте по-прежнему живет симбиот. Том Харди в образе обаятельного суперзлодея из комиксов Marvel.
                 </p>
-                <button class="watch-trailer"></button>
+                <div class="button-group">
+                    <button class="watch-trailer button ">
+                        <img width="15" src="./Images/Play.svg" alt="watch">
+                        <span>смотреть трейлер</span>
+                    </button>
+                    <a href="trailer.html" class="button trailer-link">
+                        <img witdth="15" src="./Images/ticket.svg" alt="Icon: Ticket" class="trailer-ticket">
+                        <span class="button-text">билеты на премьеру</span>
+                    </a>
+                </div>
+                <!-- /.button-group -->
             </div>
             <!-- /.herotext -->
         </div>
         <!-- /.hero -->
     </div>
     <!-- /.wrapper -->
-   
+    <img src="./Images/Venom.png" alt="photo: venom" class="venom">
 </body>
 </html>
